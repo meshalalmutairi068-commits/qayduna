@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>تطبيق قيدنا | حاسبة وقيد البلوت الذكية - App Store</title>
+    <title>تطبيق قيدنا | حاسبة وقيد البلوت الذكية - App Store & Google Play</title>
 
     <!-- خط تجوال للنصوص العادية -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -61,39 +61,18 @@
 
         /* حركات الأنيميشن العائمة */
         @keyframes float-slow {
-
-            0%,
-            100% {
-                transform: translateY(0px) rotate(0deg);
-            }
-
-            50% {
-                transform: translateY(-12px) rotate(1deg);
-            }
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-12px) rotate(1deg); }
         }
 
         @keyframes float-reverse {
-
-            0%,
-            100% {
-                transform: translateY(0px) rotate(0deg);
-            }
-
-            50% {
-                transform: translateY(12px) rotate(-1.5deg);
-            }
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(12px) rotate(-1.5deg); }
         }
 
         @keyframes pulse-glow {
-
-            0%,
-            100% {
-                box-shadow: 0 0 15px rgba(243, 132, 29, 0.4);
-            }
-
-            50% {
-                box-shadow: 0 0 30px rgba(243, 132, 29, 0.8);
-            }
+            0%, 100% { box-shadow: 0 0 15px rgba(243, 132, 29, 0.4); }
+            50% { box-shadow: 0 0 30px rgba(243, 132, 29, 0.8); }
         }
 
         .animate-float {
@@ -155,12 +134,10 @@
 <body class="baloot-pattern">
 
     <!-- شريط التنقل العلوي -->
-    <header
-        class="bg-brand-green/95 backdrop-blur-md text-white py-3 px-6 shadow-lg sticky top-0 z-50 transition-all border-b border-brand-greenDark">
+    <header class="bg-brand-green/95 backdrop-blur-md text-white py-3 px-6 shadow-lg sticky top-0 z-50 transition-all border-b border-brand-greenDark">
         <div class="max-w-6xl mx-auto flex justify-between items-center">
             <a href="#" class="flex items-center gap-3 group">
-                <div
-                    class="w-9 h-9 bg-white rounded-xl flex items-center justify-center text-brand-green font-noor font-bold text-xl shadow group-hover:scale-110 transition-transform">
+                <div class="w-9 h-9 bg-white rounded-xl flex items-center justify-center text-brand-green font-noor font-bold text-xl shadow group-hover:scale-110 transition-transform">
                     ق
                 </div>
                 <div>
@@ -178,30 +155,26 @@
                 <a href="#faq" class="hover:text-brand-orange transition">الأسئلة الشائعة</a>
             </nav>
 
-            <!-- زر التحميل الرئيسي -->
-            <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank"
-                rel="noopener noreferrer"
-                class="bg-brand-orange hover:bg-brand-orangeHover text-white px-4 py-2 rounded-xl font-noor font-bold shadow-md hover:shadow-xl transition-all flex items-center gap-2 text-xs glow-btn">
-                <i class="fa-brands fa-apple text-base"></i>
-                <span>تحميل للأيفون</span>
+            <!-- زر التحميل في الهيدر -->
+            <a href="#download" class="bg-brand-orange hover:bg-brand-orangeHover text-white px-4 py-2 rounded-xl font-noor font-bold shadow-md hover:shadow-xl transition-all flex items-center gap-2 text-xs glow-btn">
+                <i class="fa-solid fa-download text-sm"></i>
+                <span>حمّل التطبيق</span>
             </a>
         </div>
     </header>
 
     <!-- قسم البداية (Hero Section) -->
-    <section class="relative max-w-6xl mx-auto px-6 pt-10 pb-20 overflow-hidden">
+    <section id="download" class="relative max-w-6xl mx-auto px-6 pt-10 pb-20 overflow-hidden">
         <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-8">
 
             <!-- النصوص والمحتوى -->
             <div class="flex-1 text-center lg:text-right" data-aos="fade-left" data-aos-duration="1000">
 
-                <div
-                    class="inline-flex items-center gap-2 bg-brand-green/10 text-brand-green border border-brand-green/20 px-3.5 py-1.5 rounded-full font-noor font-bold text-xs mb-5">
+                <div class="inline-flex items-center gap-2 bg-brand-green/10 text-brand-green border border-brand-green/20 px-3.5 py-1.5 rounded-full font-noor font-bold text-xs mb-5">
                     <span class="w-2 h-2 rounded-full bg-brand-orange animate-ping"></span>
                     <span>التطبيق الأسرع لقيد صكات البلوت في الخليج 🇰🇼🇸🇦</span>
                 </div>
 
-                <!-- عنوان Hero بعد تعديل المسافة والارتفاع لمنع التداخل -->
                 <h1 class="text-3xl sm:text-4xl lg:text-[40px] font-bold text-brand-green mb-6 !leading-[1.1]">
                     <span>ودّع الورقة والقلم..</span>
                     <span class="block mt-3 text-brand-orange">قيّد نشراتك بذكاء وسرعة!</span>
@@ -212,21 +185,32 @@
                     توثيق إحصائيات الفوز والخسارة، ومؤقت ذكي لصكتك بدون إعلانات مزعجة.
                 </p>
 
-                <!-- زر التحميل من App Store -->
-                <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 mb-7">
-                    <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank"
-                        rel="noopener noreferrer"
-                        class="bg-black hover:bg-neutral-800 text-white px-6 py-3 rounded-2xl flex items-center gap-3.5 shadow-xl hover:-translate-y-1 transition-transform w-full sm:w-auto justify-center">
+                <!-- أزرار التحميل (آيفون + أندرويد) -->
+                <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3.5 mb-7">
+                    
+                    <!-- زر App Store -->
+                    <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank" rel="noopener noreferrer"
+                        class="bg-black hover:bg-neutral-800 text-white px-5 py-3 rounded-2xl flex items-center gap-3 shadow-xl hover:-translate-y-1 transition-transform">
                         <i class="fa-brands fa-apple text-3xl"></i>
                         <div class="text-right font-noor">
-                            <div class="text-[11px] text-gray-300 font-medium leading-tight">متوفر مجاناً على</div>
-                            <div class="text-lg font-bold">App Store</div>
+                            <div class="text-[10px] text-gray-300 font-medium leading-tight">متاح على</div>
+                            <div class="text-base font-bold">App Store</div>
                         </div>
                     </a>
 
-                    <div
-                        class="flex items-center gap-3 bg-white px-4 py-2.5 rounded-2xl border border-brand-green/15 shadow-sm">
-                        <div class="flex text-amber-400 text-sm">
+                    <!-- زر Google Play -->
+                    <a href="https://play.google.com/store/apps/details?id=com.qaydunakw.app" target="_blank" rel="noopener noreferrer"
+                        class="bg-[#0e1709] hover:bg-brand-greenDark text-white px-5 py-3 rounded-2xl flex items-center gap-3 shadow-xl hover:-translate-y-1 transition-transform border border-brand-green/30">
+                        <i class="fa-brands fa-google-play text-2xl text-brand-orange"></i>
+                        <div class="text-right font-noor">
+                            <div class="text-[10px] text-gray-300 font-medium leading-tight">متاح على</div>
+                            <div class="text-base font-bold">Google Play</div>
+                        </div>
+                    </a>
+
+                    <!-- بطاقة التقييم -->
+                    <div class="flex items-center gap-2.5 bg-white px-4 py-3 rounded-2xl border border-brand-green/15 shadow-sm">
+                        <div class="flex text-amber-400 text-xs">
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
@@ -234,15 +218,14 @@
                             <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="text-right font-noor">
-                            <div class="text-[11px] font-bold text-gray-500">تقييم ممتاز</div>
+                            <div class="text-[10px] font-bold text-gray-500">تقييم عالي</div>
                             <div class="text-xs font-bold text-brand-green">100% دقة وأمان</div>
                         </div>
                     </div>
                 </div>
 
                 <!-- ميزات سريعة -->
-                <div
-                    class="flex flex-wrap items-center justify-center lg:justify-start gap-5 text-xs font-noor font-bold text-gray-600">
+                <div class="flex flex-wrap items-center justify-center lg:justify-start gap-5 text-xs font-noor font-bold text-gray-600">
                     <div class="flex items-center gap-2">
                         <i class="fa-solid fa-circle-check text-brand-orange"></i>
                         بدون تعقيد
@@ -263,10 +246,8 @@
             <div class="flex-1 relative flex justify-center items-center" data-aos="zoom-in" data-aos-duration="1000">
 
                 <!-- كرت طافي 1: مؤقت الصكة -->
-                <div
-                    class="absolute -top-3 right-2 md:right-8 bg-white p-3 rounded-2xl shadow-xl border border-brand-green/20 z-20 animate-float flex items-center gap-3">
-                    <div
-                        class="w-9 h-9 bg-brand-orange/20 text-brand-orange rounded-xl flex items-center justify-center font-bold text-base">
+                <div class="absolute -top-3 right-2 md:right-8 bg-white p-3 rounded-2xl shadow-xl border border-brand-green/20 z-20 animate-float flex items-center gap-3">
+                    <div class="w-9 h-9 bg-brand-orange/20 text-brand-orange rounded-xl flex items-center justify-center font-bold text-base">
                         <i class="fa-solid fa-stopwatch"></i>
                     </div>
                     <div class="text-right font-noor">
@@ -276,10 +257,8 @@
                 </div>
 
                 <!-- كرت طافي 2: تسجيل النقاط -->
-                <div
-                    class="absolute -bottom-3 left-2 md:left-6 bg-white p-3 rounded-2xl shadow-xl border border-brand-green/20 z-20 animate-float-reverse flex items-center gap-3">
-                    <div
-                        class="w-9 h-9 bg-brand-green text-white rounded-xl flex items-center justify-center font-bold text-base">
+                <div class="absolute -bottom-3 left-2 md:left-6 bg-white p-3 rounded-2xl shadow-xl border border-brand-green/20 z-20 animate-float-reverse flex items-center gap-3">
+                    <div class="w-9 h-9 bg-brand-green text-white rounded-xl flex items-center justify-center font-bold text-base">
                         <i class="fa-solid fa-trophy"></i>
                     </div>
                     <div class="text-right font-noor">
@@ -290,8 +269,7 @@
 
                 <!-- إطار الهاتف الرئيسي -->
                 <div class="phone-frame max-w-[260px] md:max-w-[295px] z-10">
-                    <img src="https://i.ibb.co/0pDTpfZZ/image-1.png" alt="الشاشة الرئيسية لتطبيق قيدنا"
-                        class="w-full h-auto block">
+                    <img src="https://i.ibb.co/0pDTpfZZ/image-1.png" alt="الشاشة الرئيسية لتطبيق قيدنا" class="w-full h-auto block">
                 </div>
 
                 <div class="absolute w-64 h-64 bg-brand-green/15 rounded-full blur-3xl -z-0"></div>
@@ -317,7 +295,7 @@
             </div>
             <div data-aos="fade-up" data-aos-delay="400">
                 <div class="text-2xl md:text-3xl font-bold text-brand-orange mb-1">مجاني</div>
-                <div class="text-[11px] md:text-xs text-gray-200 font-medium">على متجر App Store للأيفون</div>
+                <div class="text-[11px] md:text-xs text-gray-200 font-medium">على iOS و Android</div>
             </div>
         </div>
     </section>
@@ -325,123 +303,98 @@
     <!-- قسم المميزات -->
     <section id="features" class="py-16 max-w-6xl mx-auto px-6">
         <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
-            <span
-                class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">استعراض
-                المميزات</span>
+            <span class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">استعراض المميزات</span>
             <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-3">مميزات صُممت لراحتك أثناء اللعب</h2>
-            <p class="text-gray-600 text-sm">تطبيق قيدنا يجمع بين البساطة الفائقة والقوة البرمجية لضمان عدم حدوث أي خطأ
-                في الحسبة.</p>
+            <p class="text-gray-600 text-sm">تطبيق قيدنا يجمع بين البساطة الفائقة والقوة البرمجية لضمان عدم حدوث أي خطأ في الحسبة.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
             <!-- ميزة 1 -->
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all"
-                data-aos="fade-up" data-aos-delay="100">
-                <div
-                    class="w-12 h-12 bg-brand-orange text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-12 h-12 bg-brand-orange text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
                     <i class="fa-solid fa-calculator"></i>
                 </div>
                 <h3 class="text-lg font-bold text-brand-green mb-2">حساب النشرات السريع</h3>
                 <p class="text-gray-600 leading-relaxed text-xs sm:text-sm">
-                    خانة سهلة وواضحة لقيد نقاط "لنا" ونقاط "لهم" مع زر (سجل) البرتقالي السريع ليتم الترحيل فوراً لقائمة
-                    الجلسة.
+                    خانة سهلة وواضحة لقيد نقاط "لنا" ونقاط "لهم" مع زر (سجل) البرتقالي السريع ليتم الترحيل فوراً لقائمة الجلسة.
                 </p>
-                <div
-                    class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
                     <i class="fa-solid fa-check text-brand-orange"></i>
                     تحديث فوري للنتيجة الكلية
                 </div>
             </div>
 
             <!-- ميزة 2 -->
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all"
-                data-aos="fade-up" data-aos-delay="200">
-                <div
-                    class="w-12 h-12 bg-brand-green text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-12 h-12 bg-brand-green text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
                     <i class="fa-solid fa-chart-pie"></i>
                 </div>
                 <h3 class="text-lg font-bold text-brand-green mb-2">مخطط الإحصائيات الذكي</h3>
                 <p class="text-gray-600 leading-relaxed text-xs sm:text-sm">
-                    تابع تطور مستواك مع رسم دائري دقيق لنسبة الانتصارات (الأخضر) والخسائر (الأحمر) مع رصد سلسلة الفوز
-                    بدون خسارة.
+                    تابع تطور مستواك مع رسم دائري دقيق لنسبة الانتصارات (الأخضر) والخسائر (الأحمر) مع رصد سلسلة الفوز بدون خسارة.
                 </p>
-                <div
-                    class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
                     <i class="fa-solid fa-check text-brand-orange"></i>
                     حساب سلسلة الـ Streaks المتتالية
                 </div>
             </div>
 
             <!-- ميزة 3 -->
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all"
-                data-aos="fade-up" data-aos-delay="300">
-                <div
-                    class="w-12 h-12 bg-brand-lightGreen text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-12 h-12 bg-brand-lightGreen text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
                     <i class="fa-solid fa-clock-rotate-left"></i>
                 </div>
                 <h3 class="text-lg font-bold text-brand-green mb-2">سجل الألعاب السابقة</h3>
                 <p class="text-gray-600 leading-relaxed text-xs sm:text-sm">
-                    لا تضيع نتائج التحديات! يوفر التطبيق أرشيفاً كاملاً للصكات السابقة للرجوع إلى أي مباراة وتفاصيل
-                    نشراتها بأي وقت.
+                    لا تضيع نتائج التحديات! يوفر التطبيق أرشيفاً كاملاً للصكات السابقة للرجوع إلى أي مباراة وتفاصيل نشراتها بأي وقت.
                 </p>
-                <div
-                    class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
                     <i class="fa-solid fa-check text-brand-orange"></i>
                     حفظ تلقائي للبيانات
                 </div>
             </div>
 
             <!-- ميزة 4 -->
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all"
-                data-aos="fade-up" data-aos-delay="100">
-                <div
-                    class="w-12 h-12 bg-brand-greenDark text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-12 h-12 bg-brand-greenDark text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
                     <i class="fa-solid fa-stopwatch"></i>
                 </div>
                 <h3 class="text-lg font-bold text-brand-green mb-2">مؤقت اللعب والتنبيهات</h3>
                 <p class="text-gray-600 leading-relaxed text-xs sm:text-sm">
                     مؤقت رقمي مباشر لحساب مدة الصكة مع إمكانية تشغيل أو تعطيل التنبيهات الصوتية والمؤقت حسب رغبتك.
                 </p>
-                <div
-                    class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
                     <i class="fa-solid fa-check text-brand-orange"></i>
                     تحكم كامل من الإعدادات
                 </div>
             </div>
 
             <!-- ميزة 5 -->
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all"
-                data-aos="fade-up" data-aos-delay="200">
-                <div
-                    class="w-12 h-12 bg-amber-600 text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-12 h-12 bg-amber-600 text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
                     <i class="fa-solid fa-palette"></i>
                 </div>
                 <h3 class="text-lg font-bold text-brand-green mb-2">ثيمات ودعم لغتين</h3>
                 <p class="text-gray-600 leading-relaxed text-xs sm:text-sm">
-                    واجهة باللغة العربية والإنجليزية، وتوافق تام مع ثيم النظام (فاتح وداكن) لتوفير أقصى راحة للعين أثناء
-                    اللعب ليلاً.
+                    واجهة باللغة العربية والإنجليزية، وتوافق تام مع ثيم النظام (فاتح وداكن) لتوفير أقصى راحة للعين أثناء اللعب ليلاً.
                 </p>
-                <div
-                    class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
                     <i class="fa-solid fa-check text-brand-orange"></i>
                     دعم العربية و English بالكامل
                 </div>
             </div>
 
             <!-- ميزة 6 -->
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all"
-                data-aos="fade-up" data-aos-delay="300">
-                <div
-                    class="w-12 h-12 bg-brand-green text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 shadow-sm hover:shadow-xl hover:-translate-y-2 transition-all" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-12 h-12 bg-brand-green text-white rounded-2xl flex items-center justify-center text-xl mb-5 shadow-md">
                     <i class="fa-solid fa-rotate-right"></i>
                 </div>
                 <h3 class="text-lg font-bold text-brand-green mb-2">صكة جديدة بلمسة واحدة</h3>
                 <p class="text-gray-600 leading-relaxed text-xs sm:text-sm">
                     زر مخصص لبدء صكة جديدة وتصفير الحقول بسرعة مع حفظ نتيجة الصكة السابقة في الإحصائيات أوتوماتيكياً.
                 </p>
-                <div
-                    class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
+                <div class="mt-5 pt-3 border-t border-gray-100 flex items-center gap-2 text-xs font-noor font-bold text-brand-green">
                     <i class="fa-solid fa-check text-brand-orange"></i>
                     جاهز للصكة التالية فوراً
                 </div>
@@ -454,11 +407,8 @@
     <section id="screens" class="py-16 bg-brand-bgAlt/50 border-y border-brand-green/10">
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
-                <span
-                    class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">استعراض
-                    الواجهات</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-3">تصميم أنيق وبسيط يعكس هوية البلوت
-                </h2>
+                <span class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">استعراض الواجهات</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-3">تصميم أنيق وبسيط يعكس هوية البلوت</h2>
                 <p class="text-gray-600 text-sm">ألوان مستوحاة من بساط اللعب الأصيل لتوفير تجربة بصرية مريحة للاعبين</p>
             </div>
 
@@ -467,51 +417,36 @@
                 <!-- شاشة 1 -->
                 <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="100">
                     <div class="phone-frame max-w-[250px] mb-5">
-                        <img src="https://i.ibb.co/0pDTpfZZ/image-1.png" alt="شاشة القيد الرئيسية - قيدنا"
-                            class="w-full h-auto block">
+                        <img src="https://i.ibb.co/0pDTpfZZ/image-1.png" alt="شاشة القيد الرئيسية - قيدنا" class="w-full h-auto block">
                     </div>
-                    <div
-                        class="bg-white px-5 py-3.5 rounded-2xl border border-brand-green/15 shadow-sm w-full max-w-[270px]">
-                        <span
-                            class="inline-block bg-brand-orange text-white text-[10px] font-noor font-bold px-2 py-0.5 rounded-md mb-1.5">الشاشة
-                            الأساسية</span>
+                    <div class="bg-white px-5 py-3.5 rounded-2xl border border-brand-green/15 shadow-sm w-full max-w-[270px]">
+                        <span class="inline-block bg-brand-orange text-white text-[10px] font-noor font-bold px-2 py-0.5 rounded-md mb-1.5">الشاشة الأساسية</span>
                         <h4 class="font-bold text-base text-brand-green">قيد النشرات والنتيجة</h4>
-                        <p class="text-xs text-gray-500 mt-1 leading-relaxed">حساب مباشر لنقاط (لنا ولهم) مع المؤقت وزر
-                            التسجيل السريع</p>
+                        <p class="text-xs text-gray-500 mt-1 leading-relaxed">حساب مباشر لنقاط (لنا ولهم) مع المؤقت وزر التسجيل السريع</p>
                     </div>
                 </div>
 
                 <!-- شاشة 2 -->
                 <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="200">
                     <div class="phone-frame max-w-[250px] mb-5">
-                        <img src="https://i.ibb.co/JwWD1c98/image-2.png" alt="شاشة الإحصائيات - قيدنا"
-                            class="w-full h-auto block">
+                        <img src="https://i.ibb.co/JwWD1c98/image-2.png" alt="شاشة الإحصائيات - قيدنا" class="w-full h-auto block">
                     </div>
-                    <div
-                        class="bg-white px-5 py-3.5 rounded-2xl border border-brand-green/15 shadow-sm w-full max-w-[270px]">
-                        <span
-                            class="inline-block bg-brand-green text-white text-[10px] font-noor font-bold px-2 py-0.5 rounded-md mb-1.5">شاشة
-                            الإحصائيات</span>
+                    <div class="bg-white px-5 py-3.5 rounded-2xl border border-brand-green/15 shadow-sm w-full max-w-[270px]">
+                        <span class="inline-block bg-brand-green text-white text-[10px] font-noor font-bold px-2 py-0.5 rounded-md mb-1.5">شاشة الإحصائيات</span>
                         <h4 class="font-bold text-base text-brand-green">تحليل الأداء وسلسلة الفوز</h4>
-                        <p class="text-xs text-gray-500 mt-1 leading-relaxed">مخطط دائري بنسب الفوز والخسارة مع مؤشر
-                            الانتصارات المتتالية</p>
+                        <p class="text-xs text-gray-500 mt-1 leading-relaxed">مخطط دائري بنسب الفوز والخسارة مع مؤشر الانتصارات المتتالية</p>
                     </div>
                 </div>
 
                 <!-- شاشة 3 -->
                 <div class="flex flex-col items-center text-center" data-aos="fade-up" data-aos-delay="300">
                     <div class="phone-frame max-w-[250px] mb-5">
-                        <img src="https://i.ibb.co/mVTc9315/image-3.png" alt="شاشة الإعدادات - قيدنا"
-                            class="w-full h-auto block">
+                        <img src="https://i.ibb.co/mVTc9315/image-3.png" alt="شاشة الإعدادات - قيدنا" class="w-full h-auto block">
                     </div>
-                    <div
-                        class="bg-white px-5 py-3.5 rounded-2xl border border-brand-green/15 shadow-sm w-full max-w-[270px]">
-                        <span
-                            class="inline-block bg-brand-lightGreen text-white text-[10px] font-noor font-bold px-2 py-0.5 rounded-md mb-1.5">شاشة
-                            الإعدادات</span>
+                    <div class="bg-white px-5 py-3.5 rounded-2xl border border-brand-green/15 shadow-sm w-full max-w-[270px]">
+                        <span class="inline-block bg-brand-lightGreen text-white text-[10px] font-noor font-bold px-2 py-0.5 rounded-md mb-1.5">شاشة الإعدادات</span>
                         <h4 class="font-bold text-base text-brand-green">التخصيص والخيارات</h4>
-                        <p class="text-xs text-gray-500 mt-1 leading-relaxed">التحكم باللغة، ثيم النظام، تفعيل الصوت،
-                            وعرض تفاصيل الوقت</p>
+                        <p class="text-xs text-gray-500 mt-1 leading-relaxed">التحكم باللغة، ثيم النظام، تفعيل الصوت، وعرض تفاصيل الوقت</p>
                     </div>
                 </div>
 
@@ -522,51 +457,34 @@
     <!-- قسم كيف يعمل التطبيق -->
     <section id="how-it-works" class="py-16 max-w-6xl mx-auto px-6">
         <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
-            <span
-                class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">دليل
-                سريع</span>
+            <span class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">دليل سريع</span>
             <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-3">كيف تبدأ صكتك مع "قيدنا"؟</h2>
             <p class="text-gray-600 text-sm">3 خطوات سهلة وسريعة وتكون جاهز للعب بدون أي تعقيد</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
 
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 relative overflow-hidden group hover:border-brand-orange transition"
-                data-aos="fade-up" data-aos-delay="100">
-                <div
-                    class="text-5xl font-noor font-bold text-brand-green/10 group-hover:text-brand-orange/20 transition absolute -top-1 left-4">
-                    01</div>
-                <div
-                    class="w-10 h-10 bg-brand-green text-white rounded-xl flex items-center justify-center text-lg font-noor font-bold mb-4">
-                    1</div>
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 relative overflow-hidden group hover:border-brand-orange transition" data-aos="fade-up" data-aos-delay="100">
+                <div class="text-5xl font-noor font-bold text-brand-green/10 group-hover:text-brand-orange/20 transition absolute -top-1 left-4">01</div>
+                <div class="w-10 h-10 bg-brand-green text-white rounded-xl flex items-center justify-center text-lg font-noor font-bold mb-4">1</div>
                 <h4 class="text-lg font-bold text-brand-green mb-2">افتح التطبيق وابدأ</h4>
                 <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     من خلال شاشة الإعدادات اضغط على <strong>"لعبة جديدة"</strong> لتصفير الحقول وتجهيز المؤقت تلقائياً.
                 </p>
             </div>
 
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 relative overflow-hidden group hover:border-brand-orange transition"
-                data-aos="fade-up" data-aos-delay="200">
-                <div
-                    class="text-5xl font-noor font-bold text-brand-green/10 group-hover:text-brand-orange/20 transition absolute -top-1 left-4">
-                    02</div>
-                <div
-                    class="w-10 h-10 bg-brand-orange text-white rounded-xl flex items-center justify-center text-lg font-noor font-bold mb-4">
-                    2</div>
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 relative overflow-hidden group hover:border-brand-orange transition" data-aos="fade-up" data-aos-delay="200">
+                <div class="text-5xl font-noor font-bold text-brand-green/10 group-hover:text-brand-orange/20 transition absolute -top-1 left-4">02</div>
+                <div class="w-10 h-10 bg-brand-orange text-white rounded-xl flex items-center justify-center text-lg font-noor font-bold mb-4">2</div>
                 <h4 class="text-lg font-bold text-brand-green mb-2">سجّل نقاط النشرة</h4>
                 <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     بعد انتهاء كل جولة، أدخل نقاط "لنا" أو "لهم" مع الأبناط والمشاريع في المربع المخصص.
                 </p>
             </div>
 
-            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 relative overflow-hidden group hover:border-brand-orange transition"
-                data-aos="fade-up" data-aos-delay="300">
-                <div
-                    class="text-5xl font-noor font-bold text-brand-green/10 group-hover:text-brand-orange/20 transition absolute -top-1 left-4">
-                    03</div>
-                <div
-                    class="w-10 h-10 bg-brand-lightGreen text-white rounded-xl flex items-center justify-center text-lg font-noor font-bold mb-4">
-                    3</div>
+            <div class="bg-white p-6 rounded-3xl border border-brand-green/15 relative overflow-hidden group hover:border-brand-orange transition" data-aos="fade-up" data-aos-delay="300">
+                <div class="text-5xl font-noor font-bold text-brand-green/10 group-hover:text-brand-orange/20 transition absolute -top-1 left-4">03</div>
+                <div class="w-10 h-10 bg-brand-lightGreen text-white rounded-xl flex items-center justify-center text-lg font-noor font-bold mb-4">3</div>
                 <h4 class="text-lg font-bold text-brand-green mb-2">اضغط (سجل) ومبروك الفوز</h4>
                 <p class="text-xs sm:text-sm text-gray-600 leading-relaxed">
                     بضغطة واحدة على زر "سجل"، تتجمع النقاط مباشرة في الجدول السفلي حتى وصول أحد الفريقين لـ 152!
@@ -580,11 +498,8 @@
     <section id="comparison" class="py-16 bg-white border-y border-brand-green/10">
         <div class="max-w-4xl mx-auto px-6">
             <div class="text-center mb-12" data-aos="fade-up">
-                <span
-                    class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">المقارنة
-                    الشاملة</span>
-                <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-2">لماذا قيدنا هو الخيار الأفضل
-                    لصكتك؟</h2>
+                <span class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">المقارنة الشاملة</span>
+                <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-2">لماذا قيدنا هو الخيار الأفضل لصكتك؟</h2>
             </div>
 
             <div class="overflow-x-auto rounded-2xl border border-brand-green/20 shadow-md" data-aos="zoom-in">
@@ -602,48 +517,33 @@
                     <tbody class="divide-y divide-gray-100 bg-white font-bold">
                         <tr class="hover:bg-brand-bg/50 transition">
                             <td class="p-3.5 text-gray-800">حساب فوري وتلقائي للنقاط</td>
-                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i
-                                    class="fa-solid fa-circle-check"></i></td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
-                            <td class="p-3.5 text-center text-emerald-600 text-base"><i
-                                    class="fa-solid fa-circle-check"></i></td>
+                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i class="fa-solid fa-circle-check"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-emerald-600 text-base"><i class="fa-solid fa-circle-check"></i></td>
                         </tr>
                         <tr class="hover:bg-brand-bg/50 transition">
                             <td class="p-3.5 text-gray-800">إحصائيات وسلسلة فوز (Streaks)</td>
-                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i
-                                    class="fa-solid fa-circle-check"></i></td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i class="fa-solid fa-circle-check"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
                         </tr>
                         <tr class="hover:bg-brand-bg/50 transition">
                             <td class="p-3.5 text-gray-800">واجهة نظيفة وخالية من التعقيد</td>
-                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i
-                                    class="fa-solid fa-circle-check"></i></td>
-                            <td class="p-3.5 text-center text-amber-500 text-base"><i class="fa-solid fa-minus"></i>
-                            </td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i class="fa-solid fa-circle-check"></i></td>
+                            <td class="p-3.5 text-center text-amber-500 text-base"><i class="fa-solid fa-minus"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
                         </tr>
                         <tr class="hover:bg-brand-bg/50 transition">
                             <td class="p-3.5 text-gray-800">مؤقت زمني لحساب وقت الصكة</td>
-                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i
-                                    class="fa-solid fa-circle-check"></i></td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
-                            <td class="p-3.5 text-center text-amber-500 text-base"><i class="fa-solid fa-minus"></i>
-                            </td>
+                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i class="fa-solid fa-circle-check"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-amber-500 text-base"><i class="fa-solid fa-minus"></i></td>
                         </tr>
                         <tr class="hover:bg-brand-bg/50 transition">
                             <td class="p-3.5 text-gray-800">أرشيف وسجل للصكات السابقة</td>
-                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i
-                                    class="fa-solid fa-circle-check"></i></td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
-                            <td class="p-3.5 text-center text-rose-500 text-base"><i
-                                    class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-emerald-600 bg-brand-bg/60 text-base"><i class="fa-solid fa-circle-check"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
+                            <td class="p-3.5 text-center text-rose-500 text-base"><i class="fa-solid fa-circle-xmark"></i></td>
                         </tr>
                     </tbody>
                 </table>
@@ -654,66 +554,49 @@
     <!-- قسم الأسئلة الشائعة -->
     <section id="faq" class="py-16 max-w-4xl mx-auto px-6">
         <div class="text-center mb-12" data-aos="fade-up">
-            <span
-                class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">عندك
-                استفسار؟</span>
+            <span class="text-brand-orange font-noor font-bold text-xs tracking-wider uppercase bg-brand-orange/10 px-3 py-1 rounded-full">عندك استفسار؟</span>
             <h2 class="text-2xl md:text-3xl font-bold text-brand-green mt-3 mb-2">الأسئلة الأكثر شيوعاً</h2>
         </div>
 
         <div class="space-y-3" data-aos="fade-up">
 
-            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm"
-                onclick="toggleFaq(this)">
-                <div
-                    class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
-                    <span>هل تطبيق قيدنا متوفر مجاناً على الآيفون؟</span>
+            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
+                    <span>هل تطبيق قيدنا متوفر مجاناً على الآيفون والأندرويد؟</span>
                     <i class="fa-solid fa-chevron-down text-brand-orange transition-transform duration-300"></i>
                 </div>
-                <div
-                    class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
-                    نعم، تطبيق قيدنا متاح مجاناً للتحميل عبر متجر تطبيقات Apple في الكويت وجميع دول الخليج والعالم.
+                <div class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
+                    نعم، تطبيق قيدنا متاح مجاناً بالكامل للتحميل عبر متجري <strong>App Store</strong> للأيفون و <strong>Google Play</strong> للأندرويد في الكويت وجميع دول الخليج والعالم.
                 </div>
             </div>
 
-            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm"
-                onclick="toggleFaq(this)">
-                <div
-                    class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
+            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
                     <span>كيف يتم احتساب الفائز في الصكة؟</span>
                     <i class="fa-solid fa-chevron-down text-brand-orange transition-transform duration-300"></i>
                 </div>
-                <div
-                    class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
-                    يقوم التطبيق بجمع النقاط تلقائياً لكل نشرة، وعند وصول أحد الفريقين (لنا أو لهم) إلى 152 نقطة فأكثر،
-                    يعلن التطبيق الفائز ويسجل النتيجة في سجل الإحصائيات.
+                <div class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
+                    يقوم التطبيق بجمع النقاط تلقائياً لكل نشرة، وعند وصول أحد الفريقين (لنا أو لهم) إلى 152 نقطة فأكثر، يعلن التطبيق الفائز ويسجل النتيجة في سجل الإحصائيات.
                 </div>
             </div>
 
-            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm"
-                onclick="toggleFaq(this)">
-                <div
-                    class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
+            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
                     <span>هل يعمل التطبيق بدون اتصال بالإنترنت (Offline)؟</span>
                     <i class="fa-solid fa-chevron-down text-brand-orange transition-transform duration-300"></i>
                 </div>
-                <div
-                    class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
-                    نعم 100%! التطبيق يعمل بدون إنترنت تماماً، مما يجعله مثالياً للاستخدام في البر، الشاليهات،
-                    الاستراحات، أو أي مكان.
+                <div class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
+                    نعم 100%! التطبيق يعمل بدون إنترنت تماماً، مما يجعله مثالياً للاستخدام في البر، الشاليهات، الاستراحات، أو أي مكان.
                 </div>
             </div>
 
-            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm"
-                onclick="toggleFaq(this)">
-                <div
-                    class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
+            <div class="bg-white rounded-2xl border border-brand-green/15 p-4 cursor-pointer shadow-sm" onclick="toggleFaq(this)">
+                <div class="flex justify-between items-center font-noor font-bold text-brand-green text-sm sm:text-base">
                     <span>هل يمكنني تغيير لغة التطبيق إلى الإنجليزية؟</span>
                     <i class="fa-solid fa-chevron-down text-brand-orange transition-transform duration-300"></i>
                 </div>
-                <div
-                    class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
-                    بكل تأكيد، يمكنك من خلال شاشة الإعدادات الضغط على خيار "تغيير اللغة" للتبديل بين العربية والإنجليزية
-                    بكل سهولة.
+                <div class="faq-answer hidden mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-2.5">
+                    بكل تأكيد، يمكنك من خلال شاشة الإعدادات الضغط على خيار "تغيير اللغة" للتبديل بين العربية والإنجليزية بكل سهولة.
                 </div>
             </div>
 
@@ -721,14 +604,12 @@
     </section>
 
     <!-- بانر التحميل النهائي -->
-    <section
-        class="bg-gradient-to-br from-brand-green via-brand-greenDark to-[#28351B] text-white py-16 px-6 relative overflow-hidden">
+    <section class="bg-gradient-to-br from-brand-green via-brand-greenDark to-[#28351B] text-white py-16 px-6 relative overflow-hidden">
         <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-orange/10 rounded-full blur-3xl"></div>
         <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-brand-lightGreen/20 rounded-full blur-3xl"></div>
 
         <div class="max-w-4xl mx-auto text-center relative z-10" data-aos="zoom-in">
-            <div
-                class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-brand-green font-noor font-bold text-2xl mx-auto mb-5 shadow-2xl">
+            <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center text-brand-green font-noor font-bold text-2xl mx-auto mb-5 shadow-2xl">
                 ق
             </div>
 
@@ -737,23 +618,40 @@
             </h2>
 
             <p class="text-sm md:text-base text-gray-200 mb-8 max-w-xl mx-auto leading-relaxed">
-                حمّل تطبيق <strong>"قيدنا"</strong> مجاناً الآن من متجر الآب ستور واستمتع بأفضل تجربة لحساب وقيد البلوت
-                مع ربعك.
+                حمّل تطبيق <strong>"قيدنا"</strong> مجاناً الآن على هاتفك واستمتع بأفضل تجربة لحساب وقيد البلوت مع ربعك.
             </p>
 
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank"
-                    rel="noopener noreferrer"
-                    class="bg-brand-orange hover:bg-brand-orangeHover text-white px-7 py-3.5 rounded-2xl font-noor font-bold text-base shadow-2xl hover:scale-105 transition-all flex items-center gap-3 w-full sm:w-auto justify-center glow-btn">
-                    <i class="fa-brands fa-apple text-xl"></i>
-                    <span>تحميل مجاناً من App Store</span>
+            <!-- أزرار التحميل في البانر السفلي -->
+            <div class="flex flex-wrap justify-center items-center gap-4">
+                
+                <!-- زر آيفون -->
+                <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank" rel="noopener noreferrer"
+                    class="bg-black hover:bg-neutral-800 text-white px-6 py-3.5 rounded-2xl font-noor font-bold text-sm shadow-2xl hover:scale-105 transition-all flex items-center gap-3">
+                    <i class="fa-brands fa-apple text-2xl"></i>
+                    <div class="text-right">
+                        <div class="text-[10px] text-gray-300 leading-none">متاح على</div>
+                        <div class="text-base font-bold">App Store</div>
+                    </div>
                 </a>
+
+                <!-- زر أندرويد -->
+                <a href="https://play.google.com/store/apps/details?id=com.qaydunakw.app" target="_blank" rel="noopener noreferrer"
+                    class="bg-brand-orange hover:bg-brand-orangeHover text-white px-6 py-3.5 rounded-2xl font-noor font-bold text-sm shadow-2xl hover:scale-105 transition-all flex items-center gap-3 glow-btn">
+                    <i class="fa-brands fa-google-play text-xl"></i>
+                    <div class="text-right">
+                        <div class="text-[10px] text-white/80 leading-none">متاح على</div>
+                        <div class="text-base font-bold">Google Play</div>
+                    </div>
+                </a>
+
             </div>
 
             <div class="mt-6 text-xs font-noor text-gray-300 flex items-center justify-center gap-4">
                 <span><i class="fa-solid fa-shield-halved ml-1 text-brand-orange"></i> آمن 100%</span>
                 <span>•</span>
-                <span><i class="fa-solid fa-mobile-screen ml-1 text-brand-orange"></i> متوافق مع iOS 15+</span>
+                <span><i class="fa-brands fa-apple ml-1 text-brand-orange"></i> iOS 15+</span>
+                <span>•</span>
+                <span><i class="fa-brands fa-android ml-1 text-brand-orange"></i> Android 8.0+</span>
             </div>
         </div>
     </section>
@@ -764,8 +662,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center gap-5 mb-6">
 
                 <div class="flex items-center gap-3">
-                    <div
-                        class="w-8 h-8 bg-brand-green text-white rounded-xl flex items-center justify-center font-noor font-bold text-base">
+                    <div class="w-8 h-8 bg-brand-green text-white rounded-xl flex items-center justify-center font-noor font-bold text-base">
                         ق
                     </div>
                     <div>
@@ -779,14 +676,13 @@
                     <a href="#screens" class="hover:text-brand-orange transition">الشاشات</a>
                     <a href="#how-it-works" class="hover:text-brand-orange transition">طريقة اللعب</a>
                     <a href="#faq" class="hover:text-brand-orange transition">الأسئلة الشائعة</a>
-                    <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank"
-                        class="text-brand-orange hover:underline font-bold">تحميل التطبيق</a>
+                    <a href="https://apps.apple.com/kw/app/%D9%82%D9%8A%D8%AF%D9%86%D8%A7/id6804607110" target="_blank" rel="noopener noreferrer" class="hover:text-brand-orange transition">الأيفون</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.qaydunakw.app" target="_blank" rel="noopener noreferrer" class="text-brand-orange hover:underline font-bold">الأندرويد</a>
                 </div>
 
             </div>
 
-            <div
-                class="border-t border-gray-100 pt-5 flex flex-col md:flex-row justify-between items-center gap-3 text-[11px] text-gray-400">
+            <div class="border-t border-gray-100 pt-5 flex flex-col md:flex-row justify-between items-center gap-3 text-[11px] text-gray-400">
                 <div>جميع الحقوق محفوظة © 2026 تطبيق قيدنا (Qayedna).</div>
                 <div>صُمم بكل إتقان لعشاق البلوت 🃏</div>
             </div>
