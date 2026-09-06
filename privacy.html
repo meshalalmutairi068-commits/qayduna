@@ -16,6 +16,7 @@
             --text-main: #f8fafc;
             --text-muted: #94a3b8;
             --border: #334155;
+            --highlight: #22c55e;
         }
 
         * {
@@ -46,29 +47,24 @@
             border-bottom: 1px solid var(--border);
             padding-bottom: 24px;
             margin-bottom: 32px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 16px;
         }
 
         .badge {
-            background: rgba(249, 115, 22, 0.15);
-            color: var(--primary);
-            border: 1px solid rgba(249, 115, 22, 0.3);
+            background: rgba(34, 197, 94, 0.15);
+            color: var(--highlight);
+            border: 1px solid rgba(34, 197, 94, 0.3);
             padding: 6px 14px;
             border-radius: 999px;
             font-size: 13px;
             font-weight: 500;
-            letter-spacing: 0.5px;
+            display: inline-block;
+            margin-bottom: 12px;
         }
 
         h1 {
             font-size: 26px;
             font-weight: 700;
             color: #fff;
-            margin-top: 10px;
         }
 
         .date {
@@ -85,9 +81,6 @@
             font-size: 18px;
             color: var(--primary);
             margin-bottom: 12px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
         }
 
         p, li {
@@ -104,14 +97,25 @@
             margin-bottom: 6px;
         }
 
+        .callout {
+            background: rgba(249, 115, 22, 0.08);
+            border-right: 4px solid var(--primary);
+            padding: 16px;
+            border-radius: 8px;
+            margin: 16px 0;
+        }
+
+        .callout p {
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
         a {
             color: var(--primary);
             text-decoration: none;
-            transition: color 0.2s;
         }
 
         a:hover {
-            color: var(--primary-dark);
             text-decoration: underline;
         }
 
@@ -129,7 +133,6 @@
             margin: 40px 0;
         }
 
-        /* English side typography tweaks */
         .en {
             direction: ltr;
             text-align: left;
@@ -139,6 +142,11 @@
         .en ul {
             padding-left: 20px;
             padding-right: 0;
+        }
+
+        .en .callout {
+            border-right: none;
+            border-left: 4px solid var(--primary);
         }
 
         @media (max-width: 640px) {
@@ -154,53 +162,44 @@
 <body>
 
 <div class="container">
-    
-    <!-- ARABIC VERSION -->
+
+    <!-- ARABIC SECTION -->
     <div class="header">
-        <div>
-            <span class="badge">وثيقة رسمية</span>
-            <h1>سياسة الخصوصية — تطبيق قيدنا (Qayduna)</h1>
-            <div class="date">آخر تحديث: سبتمبر 2026</div>
+        <span class="badge">لا يتم جمع أي بيانات شخصية</span>
+        <h1>سياسة الخصوصية — تطبيق قيدنا (Qayduna)</h1>
+        <div class="date">آخر تحديث: سبتمبر 2026</div>
+    </div>
+
+    <div class="section">
+        <div class="callout">
+            <p>تطبيق <strong>قيدنا</strong> لا يتطلب إنشاء أي حساب أو تسجيل دخول، ولا يقوم بجمع، تخزين، أو مشاركة أي بيانات شخصية للمستخدمين على الإطلاق.</p>
         </div>
+        <p>تطبيق <strong>قيدنا</strong> هو أداة رقمية لحساب وتسجيل نتائج سكات ونشرات لعبة البلوت، وتم تصميمه ليعمل مع احترام كامل لخصوصية المستخدم دون الحاجة لطلب أي معلومات تعريفية.</p>
     </div>
 
     <div class="section">
-        <p>نُقدّر في تطبيق <strong>قيدنا</strong> ثقتك بنا، ونلتزم التزاماً كاملاً بحماية خصوصية مستخدمينا. توضح هذه الوثيقة ماهية البيانات والمعلومات عند استخدامك لتطبيق قيدنا المخصص لحساب وتسجيل سكات ونشرات لعبة البلوت.</p>
-    </div>
-
-    <div class="section">
-        <h2>1. جمع البيانات واستخدامها</h2>
-        <p>يعمل تطبيق <strong>قيدنا</strong> كأداة حاسبة محلية ولا يقوم بجمع بياناتك الشخصية المباشرة:</p>
+        <h2>1. تسجيل الدخول والبيانات الشخصية</h2>
         <ul>
-            <li><strong>بيانات اللعب:</strong> جميع النتائج، النقاط، المشاريع، والإحصائيات تُحفظ محلياً على ذاكرة هاتفك فقط ولا يتم رفعها أو مزامنتها مع خوادم خارجية.</li>
-            <li><strong>الحسابات:</strong> لا يتطلب التطبيق أي تسجيل حساب، ولا يطلب رقم الهاتف أو اسم المستخدم.</li>
+            <li><strong>بدون تسجيل دخول:</strong> لا يطلب التطبيق بريداً إلكترونياً، رقماً هاتفياً، أو اسماً للمستخدم، ويمكن استخدامه مباشرة فور تثبيته.</li>
+            <li><strong>البيانات المحلية فقط:</strong> جميع نتائج الألعاب، سجل النشرات، والإعدادات المحفوظة يتم تخزينها محلياً داخل ذاكرة جهازك الشخصي فقط، ولا يتم إرسالها إلى أي خوادم خارجية.</li>
+            <li><strong>التحكم الكامل:</strong> يمكنك مسح سجلات اللعب في أي وقت بمجرد مسح بيانات التطبيق من هاتفك أو إلغاء تثبيته.</li>
         </ul>
     </div>
 
     <div class="section">
-        <h2>2. خدمات الإعلانات والجهات الخارجية (Third-Party Ads)</h2>
-        <p>يعرض التطبيق إعلانات مدمجة لدعم استمرارية التطوير المجاني، ويستخدم أطر عمل موثوقة من أطراف ثالثة مثل <strong>Google AdMob</strong>. قد تجمع هذه الخدمات معلومات غير معرّفة للشخصية لأغراض تحسين وتقديم الإعلانات الملائمة، بما في ذلك:</p>
-        <ul>
-            <li>معرّفات الإعلانات الخاصة بالجهاز (Advertising ID).</li>
-            <li>نوع الجهاز، ونظام التشغيل، وبيانات الأداء وتشخيص الأعطال.</li>
-        </ul>
-        <p>للاطلاع على كيفية معالجة Google لبيانات الإعلانات: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">سياسة إعلانات Google</a>.</p>
+        <h2>2. الإعلانات والجهات الخارجية</h2>
+        <p>يحتوي التطبيق على مساحات إعلانية مدعومة من شبكات إعلانية رسمية (مثل <strong>Google AdMob</strong>) لتغطية تكاليف التطوير والصيانة المجانية. قد تقوم هذه الخدمات بطلب معرف الإعلانات الافتراضي الخاص بنظام التشغيل لعرض الإعلانات دون الوصول لأي بيانات شخصية خاصة بك.</p>
     </div>
 
     <div class="section">
         <h2>3. الصلاحيات</h2>
-        <p>لا يطلب التطبيق أي صلاحيات وصول حساسة (مثل الموقع الجغرافي الدقيق، جهات الاتصال، أو الكاميرا). يقتصر استخدام الصلاحيات الأساسية على الاتصال بالإنترنت لعرض الإعلانات ومزامنة الوقت وتشغيل التنبيهات الصوتية للعبة.</p>
+        <p>لا يطلب تطبيق قيدنا أياً من أذونات الجهاز الحساسة (مثل: الكاميرا، الميكروفون، الصور، الموقع الجغرافي، أو جهات الاتصال).</p>
     </div>
 
     <div class="section">
-        <h2>4. خصوصية الأطفال</h2>
-        <p>التطبيق آمن للاستخدام العائلي ولا يقوم بجمع أي معلومات تعريفية شخصية موجهة للأطفال دون سن 13 عاماً عمداً.</p>
-    </div>
-
-    <div class="section">
-        <h2>5. التواصل والدعم</h2>
+        <h2>4. التواصل معنا</h2>
         <div class="contact-box">
-            <p>لأي استفسارات أو ملاحظات قانونية تخص هذه السياسة، يمكنك التواصل معنا عبر البريد الإلكتروني الرسمي:</p>
+            <p>إذا كان لديك أي سؤال حول سياسة الخصوصية، يسعدنا تواصلك معنا:</p>
             <p style="margin-top: 8px;"><strong>البريد الإلكتروني:</strong> <a href="mailto:meshalalmutairi068@gmail.com">meshalalmutairi068@gmail.com</a></p>
         </div>
     </div>
@@ -208,53 +207,44 @@
     <!-- DIVIDER -->
     <hr class="divider">
 
-    <!-- ENGLISH VERSION (FOR GOOGLE PLAY REVIEWERS) -->
+    <!-- ENGLISH SECTION -->
     <div class="en">
         <div class="header">
-            <div>
-                <span class="badge">Official Policy</span>
-                <h1>Privacy Policy — Qayduna</h1>
-                <div class="date">Last Updated: September 2026</div>
+            <span class="badge">No Personal Data Collected</span>
+            <h1>Privacy Policy — Qayduna</h1>
+            <div class="date">Last Updated: September 2026</div>
+        </div>
+
+        <div class="section">
+            <div class="callout">
+                <p><strong>Qayduna</strong> does not require any account creation or login, and does NOT collect, store, or share any personal user data.</p>
             </div>
+            <p><strong>Qayduna</strong> is designed as a standalone utility tool for recording Baloot card game scores and statistics with complete respect for user privacy.</p>
         </div>
 
         <div class="section">
-            <p><strong>Qayduna</strong> is a Baloot score counter application. We respect your privacy and are committed to ensuring clarity regarding how data is handled.</p>
-        </div>
-
-        <div class="section">
-            <h2>1. Information Collection and Use</h2>
-            <p>Qayduna operates primarily as an offline utility tool:</p>
+            <h2>1. Accounts & Data Collection</h2>
             <ul>
-                <li><strong>Gameplay Records:</strong> Scores, statistics, and game records are stored locally on your device and are never uploaded to our servers.</li>
-                <li><strong>No User Accounts:</strong> We do not require registration, real names, or personal identities to use the app.</li>
+                <li><strong>No Login Required:</strong> You do not need to register, provide an email address, phone number, or identity to use the app.</li>
+                <li><strong>Local Storage Only:</strong> All match scores, game history, and custom preferences stay on your device locally and are never transferred to external servers.</li>
+                <li><strong>Data Deletion:</strong> You can wipe all app data at any time simply by clearing the application cache or uninstalling the app.</li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>2. Advertising and Third-Party Services</h2>
-            <p>The app displays advertisements served by third-party ad networks (such as <strong>Google AdMob</strong>). These service providers may collect non-personally identifiable information automatically to provide personalized or contextual advertising, including:</p>
-            <ul>
-                <li>Device advertising identifiers (e.g., Google Advertising ID).</li>
-                <li>Device model, operating system version, and general crash diagnostics.</li>
-            </ul>
-            <p>Review how Google uses data from advertising partners: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Ads Privacy & Terms</a>.</p>
+            <h2>2. Advertisements</h2>
+            <p>The app displays third-party ads (via <strong>Google AdMob</strong>) to remain completely free. These ad networks may process standard non-identifying system data (like Google Advertising ID) solely for delivering ads in accordance with Google's policies.</p>
         </div>
 
         <div class="section">
             <h2>3. Permissions</h2>
-            <p>We do not request sensitive device permissions (such as Location, Camera, or Contacts). General network access permissions are strictly utilized for ad delivery and checking updates.</p>
+            <p>We do not request sensitive device permissions such as Contacts, Camera, Photos, or GPS location.</p>
         </div>
 
         <div class="section">
-            <h2>4. Children’s Privacy</h2>
-            <p>Our service does not knowingly collect personally identifiable information from children under the age of 13.</p>
-        </div>
-
-        <div class="section">
-            <h2>5. Contact Us</h2>
+            <h2>4. Contact Us</h2>
             <div class="contact-box">
-                <p>If you have any questions or suggestions regarding our Privacy Policy, please contact us at:</p>
+                <p>If you have any questions regarding this policy, reach out at:</p>
                 <p style="margin-top: 8px;"><strong>Email:</strong> <a href="mailto:meshalalmutairi068@gmail.com">meshalalmutairi068@gmail.com</a></p>
             </div>
         </div>
