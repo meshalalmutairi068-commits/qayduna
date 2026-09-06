@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية | Privacy Policy - قيدنا (Qayduna)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #f97316;
+            --primary-dark: #ea580c;
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Tajawal', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.8;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 48px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 24px;
+            margin-bottom: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .badge {
+            background: rgba(249, 115, 22, 0.15);
+            color: var(--primary);
+            border: 1px solid rgba(249, 115, 22, 0.3);
+            padding: 6px 14px;
+            border-radius: 999px;
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #fff;
+            margin-top: 10px;
+        }
+
+        .date {
+            color: var(--text-muted);
+            font-size: 13px;
+            margin-top: 4px;
+        }
+
+        .section {
+            margin-bottom: 28px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: var(--primary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        p, li {
+            color: var(--text-muted);
+            font-size: 15px;
+        }
+
+        ul {
+            padding-right: 20px;
+            margin-top: 8px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
+        }
+
+        .contact-box {
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 16px;
+        }
+
+        hr.divider {
+            border: none;
+            border-top: 1px dashed var(--border);
+            margin: 40px 0;
+        }
+
+        /* English side typography tweaks */
+        .en {
+            direction: ltr;
+            text-align: left;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        .en ul {
+            padding-left: 20px;
+            padding-right: 0;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 24px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- ARABIC VERSION -->
+    <div class="header">
+        <div>
+            <span class="badge">وثيقة رسمية</span>
+            <h1>سياسة الخصوصية — تطبيق قيدنا (Qayduna)</h1>
+            <div class="date">آخر تحديث: سبتمبر 2026</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <p>نُقدّر في تطبيق <strong>قيدنا</strong> ثقتك بنا، ونلتزم التزاماً كاملاً بحماية خصوصية مستخدمينا. توضح هذه الوثيقة ماهية البيانات والمعلومات عند استخدامك لتطبيق قيدنا المخصص لحساب وتسجيل سكات ونشرات لعبة البلوت.</p>
+    </div>
+
+    <div class="section">
+        <h2>1. جمع البيانات واستخدامها</h2>
+        <p>يعمل تطبيق <strong>قيدنا</strong> كأداة حاسبة محلية ولا يقوم بجمع بياناتك الشخصية المباشرة:</p>
+        <ul>
+            <li><strong>بيانات اللعب:</strong> جميع النتائج، النقاط، المشاريع، والإحصائيات تُحفظ محلياً على ذاكرة هاتفك فقط ولا يتم رفعها أو مزامنتها مع خوادم خارجية.</li>
+            <li><strong>الحسابات:</strong> لا يتطلب التطبيق أي تسجيل حساب، ولا يطلب رقم الهاتف أو اسم المستخدم.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>2. خدمات الإعلانات والجهات الخارجية (Third-Party Ads)</h2>
+        <p>يعرض التطبيق إعلانات مدمجة لدعم استمرارية التطوير المجاني، ويستخدم أطر عمل موثوقة من أطراف ثالثة مثل <strong>Google AdMob</strong>. قد تجمع هذه الخدمات معلومات غير معرّفة للشخصية لأغراض تحسين وتقديم الإعلانات الملائمة، بما في ذلك:</p>
+        <ul>
+            <li>معرّفات الإعلانات الخاصة بالجهاز (Advertising ID).</li>
+            <li>نوع الجهاز، ونظام التشغيل، وبيانات الأداء وتشخيص الأعطال.</li>
+        </ul>
+        <p>للاطلاع على كيفية معالجة Google لبيانات الإعلانات: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">سياسة إعلانات Google</a>.</p>
+    </div>
+
+    <div class="section">
+        <h2>3. الصلاحيات</h2>
+        <p>لا يطلب التطبيق أي صلاحيات وصول حساسة (مثل الموقع الجغرافي الدقيق، جهات الاتصال، أو الكاميرا). يقتصر استخدام الصلاحيات الأساسية على الاتصال بالإنترنت لعرض الإعلانات ومزامنة الوقت وتشغيل التنبيهات الصوتية للعبة.</p>
+    </div>
+
+    <div class="section">
+        <h2>4. خصوصية الأطفال</h2>
+        <p>التطبيق آمن للاستخدام العائلي ولا يقوم بجمع أي معلومات تعريفية شخصية موجهة للأطفال دون سن 13 عاماً عمداً.</p>
+    </div>
+
+    <div class="section">
+        <h2>5. التواصل والدعم</h2>
+        <div class="contact-box">
+            <p>لأي استفسارات أو ملاحظات قانونية تخص هذه السياسة، يمكنك التواصل معنا عبر البريد الإلكتروني الرسمي:</p>
+            <p style="margin-top: 8px;"><strong>البريد الإلكتروني:</strong> <a href="mailto:meshalalmutairi068@gmail.com">meshalalmutairi068@gmail.com</a></p>
+        </div>
+    </div>
+
+    <!-- DIVIDER -->
+    <hr class="divider">
+
+    <!-- ENGLISH VERSION (FOR GOOGLE PLAY REVIEWERS) -->
+    <div class="en">
+        <div class="header">
+            <div>
+                <span class="badge">Official Policy</span>
+                <h1>Privacy Policy — Qayduna</h1>
+                <div class="date">Last Updated: September 2026</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <p><strong>Qayduna</strong> is a Baloot score counter application. We respect your privacy and are committed to ensuring clarity regarding how data is handled.</p>
+        </div>
+
+        <div class="section">
+            <h2>1. Information Collection and Use</h2>
+            <p>Qayduna operates primarily as an offline utility tool:</p>
+            <ul>
+                <li><strong>Gameplay Records:</strong> Scores, statistics, and game records are stored locally on your device and are never uploaded to our servers.</li>
+                <li><strong>No User Accounts:</strong> We do not require registration, real names, or personal identities to use the app.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>2. Advertising and Third-Party Services</h2>
+            <p>The app displays advertisements served by third-party ad networks (such as <strong>Google AdMob</strong>). These service providers may collect non-personally identifiable information automatically to provide personalized or contextual advertising, including:</p>
+            <ul>
+                <li>Device advertising identifiers (e.g., Google Advertising ID).</li>
+                <li>Device model, operating system version, and general crash diagnostics.</li>
+            </ul>
+            <p>Review how Google uses data from advertising partners: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google Ads Privacy & Terms</a>.</p>
+        </div>
+
+        <div class="section">
+            <h2>3. Permissions</h2>
+            <p>We do not request sensitive device permissions (such as Location, Camera, or Contacts). General network access permissions are strictly utilized for ad delivery and checking updates.</p>
+        </div>
+
+        <div class="section">
+            <h2>4. Children’s Privacy</h2>
+            <p>Our service does not knowingly collect personally identifiable information from children under the age of 13.</p>
+        </div>
+
+        <div class="section">
+            <h2>5. Contact Us</h2>
+            <div class="contact-box">
+                <p>If you have any questions or suggestions regarding our Privacy Policy, please contact us at:</p>
+                <p style="margin-top: 8px;"><strong>Email:</strong> <a href="mailto:meshalalmutairi068@gmail.com">meshalalmutairi068@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
